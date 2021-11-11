@@ -365,28 +365,28 @@ export default {
         )}x^{2} + ${this.getCoef(
           this.yzero * num0_x1,
           num0_denum
-        )}x +${this.getCoef(this.yzero * num0_x0, num0_denum)} +` +
+        )}x +${this.getCoef(this.yzero * num0_x0, num0_denum)}1 +` +
         `${this.getCoef(this.yone, num1_denum)}x^{3}+${this.getCoef(
           this.yzone * num1_x1,
           num1_denum
         )}x^{2} + ${this.getCoef(
           this.yone * num1_x2,
           num1_denum
-        )}x +${this.getCoef(this.yone * num1_x0, num1_denum)} +` +
+        )}x +${this.getCoef(this.yone * num1_x0, num1_denum)}1 +` +
         `${this.getCoef(this.ytwo, num2_denum)}x^{3}+${this.getCoef(
           this.ytwo * num2_x2,
           num2_denum
         )}x^{2} + ${this.getCoef(
           this.ytwo * num2_x1,
           num2_denum
-        )}x +${this.getCoef(this.ytwo * num2_x0, num2_denum)} +` +
+        )}x +${this.getCoef(this.ytwo * num2_x0, num2_denum)}1 +` +
         `${this.getCoef(this.ythree * num3_x3, num3_denum)}x^{3}+${this.getCoef(
           this.ythree * num3_x2,
           num3_denum
         )}x^{2} + ${this.getCoef(
           this.ythree * num3_x1,
           num3_denum
-        )}x +${this.getCoef(this.ythree * num3_x0, num3_denum)}`;
+        )}x +${this.getCoef(this.ythree * num3_x0, num3_denum)}1`;
       katex.render(this.formatSigns(exp5str), this.exp5, {
         throwOnError: false,
       });
